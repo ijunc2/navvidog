@@ -82,10 +82,10 @@ class _SplashScreenState extends State<SplashScreen> {
         child: SizedBox(
           width: MediaQuery.of(context).size.width,
           height: MediaQuery.of(context).size.height,
-          child: Container(),
-          // child: Image.asset('assets/splash_image.png',
-          //   fit: BoxFit.fill,
-          // ),
+          // child: Container(),
+          child: Image.asset('assets/navidog-splash.jpeg',
+            fit: BoxFit.fill,
+          ),
         ),
       ),
     );

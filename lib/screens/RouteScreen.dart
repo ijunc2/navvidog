@@ -20,7 +20,6 @@ class _RouteScreenState extends State<RouteScreen> {
   final List<Widget> _pages = [
     const NavigationScreen(),
     const DetectionScreen(),
-    const VoiceScreen()
   ];
 
   int _selectedPage = 0;
@@ -81,23 +80,16 @@ class _RouteScreenState extends State<RouteScreen> {
               items: const [
                 BottomNavigationBarItem(
                     label: '',
-                    icon: Icon(Icons.home_filled,
+                    icon: Icon(Icons.map_outlined,
                       size: 28,
                     )
                   // icon: Image.asset("assets/new_image/home.png")
                 ),
                 BottomNavigationBarItem(
                     label: '',
-                    icon: Icon(Icons.feed,
+                    icon: Icon(Icons.camera_alt_outlined,
                         size: 28
                     )
-                ),
-                BottomNavigationBarItem(
-                    label: '',
-                    icon: Icon(Icons.add_box_outlined,
-                        size: 28
-                    )
-                  // icon: Image.asset("assets/new_image/add.png")
                 ),
               ],
             ),
